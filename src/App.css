@@ -1,0 +1,62 @@
+@import '~antd/dist/antd.css';
+
+.navbar {
+  display: flex;
+  
+  ul {
+    display: flex !important;
+    list-style: none;
+
+    li {
+      a {
+        display: block;
+        padding: 8px;
+      }
+    }
+  }
+  
+}
+.ant-layout-content {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.d-flex{
+  display: flex;
+}
+.d-block {
+  display: block !important;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.mr-1 {
+  margin-right: 8px;
+}
+.m-2 {
+  margin: 8px;
+}
+.my-2 {
+  margin: 8px 0 8px 0;
+}
+.ml-1 {
+  margin-left: 8px;
+}
+.mb-2 {
+  margin-bottom: 16px;
+} 
+.mb-4 {
+  margin-bottom: 32px;
+}
+
+
+.ant-checkbox-group-item  {
+  padding: 8px 0;
+}
